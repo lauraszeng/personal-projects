@@ -9,6 +9,7 @@ the way I'm using it in the code below means that each time I create a class, I 
 When I do this, that means each entry for that specific instance will need to be one of the options in that Enum class.
 '''
 class Frequency(Enum):
+    # if I run print(Frequency.ANNUAL), it will print "annual" bc of the __str__ method at the end of the class
     ANNUAL = "annual"
     MONTHLY = "monthly"
     WEEKLY = "weekly"
