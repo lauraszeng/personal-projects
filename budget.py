@@ -3,9 +3,10 @@ from enum import Enum
 
 # ENUM CLASSES
 ''' 
-Enum = "enumeration", which means that it gives me a list of pre-approved options to choose from in a specified category
+Enum stands for "enumeration", which means that it gives me a list of pre-approved options to choose from in a specified category
 
-these use Enum to create a set of named, constant values.
+the way I'm using it in the code below means that each time I create a class, I can make it so that any instance (aka the characteristics of the class, like frequency, value, etc) can be set to one of the Enum classes that I've created.
+When I do this, that means each entry for that specific instance will need to be one of the options in that Enum class.
 '''
 class Frequency(Enum):
     ANNUAL = "annual"
